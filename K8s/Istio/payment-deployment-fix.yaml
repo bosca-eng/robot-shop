@@ -35,4 +35,6 @@ spec:
           requests:
             cpu: 100m
             memory: 50Mi
+        securityContext:
+          runAsNonRoot: true
       restartPolicy: Always
